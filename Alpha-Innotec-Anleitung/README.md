@@ -102,12 +102,12 @@ Wählen Sie „Woche” aus, um zur Übersicht der Zeiteinstellungen zu gelangen
 ![](m/Menu-TimeMode.jpeg)
 
 
-Es gibt zwei Modi: **„Täglich”** und **„Nachts”**. Der Unterschied liegt in der Stärke der Lüftung.
+Es gibt zwei Modi: **„Tags”** und **„Nachts”**. Der Unterschied liegt in der Stärke der Lüftung.
 
 > Die zwei folgenden Bilder zeigen die Einstellungen für Winter.
 
-#### **„Täglich"-Modus**:
-![Zeiteinstellungen für den Täglich-Modus](m/Menu-AC-Daily.jpeg)
+#### **„Tags"-Modus**:
+![Zeiteinstellungen für den Tags-Modus](m/Menu-AC-Daily.jpeg)
 
 *Die Lüftung wird auf einer moderaten Stufe betrieben.*
 
@@ -134,7 +134,7 @@ Das Gleiche gilt für die Minuten. Zum Schluss bewegt man den Cursor wieder zum 
 > mehrmals wiederholen muss, bis die Steuerung reagiert.
 
 
-Durch Scrollen nach unten gelangt man von den täglichen zu den nächtlichen Zeiteinstellungen.
+Durch Scrollen nach unten gelangt man von den Tages- zu den Nachtzeiteinstellungen.
 Wird anschließend noch weiter gescrollt, gelangt man zum Bestätigungsbildschirm. Hier kann man die Änderungen entweder speichern oder verwerfen.
 
 
