@@ -22,7 +22,7 @@ Ignore Spelling: hauptbildschirm
 Das Bild zeigt den Hauptbildschirm der Steuerung der Wärmepumpe Alpha-Innotec. Auf dem Display werden verschiedene Informationen angezeigt,
 darunter die Temperatur der Heizung und die aktuelle Betriebsart.
 
-### ==A: Display==
+### [A]: Display
 
 #### **Mittig und rechts:**
 In diesem Beispiel ist die Heizung auf -1 Grad Celsius eingestellt, das bedeutet, dass die Heizung ein Grad weniger heizt als nötig. Dadurch
@@ -38,7 +38,7 @@ Weiterhin läuft die Lüftung ebenfalls auf "Auto", was bedeutet, dass die Lüft
 > Es ist ratsam, die Betriebsart auf **"Auto"** zu belassen.
 
 
-### ==B: Eingabe Drehknopf==
+### [B]: Eingabe Drehknopf
 Der Eingabe-Drehknopf ermöglicht es dem Benutzer, verschiedene Einstellungen der Wärmepumpe zu ändern. Durch Drehen des Knopfs kann die gewünschte Option ausgewählt werden,
 und durch Drücken des Knopfs wird die Auswahl bestätigt.
 
@@ -48,7 +48,7 @@ und durch Drücken des Knopfs wird die Auswahl bestätigt.
 
 <div style="page-break-after: always;"></div>
 
-## ==Haupt-Menü==
+## Haupt-Menü
 
 Über das Hauptmenü erhalten Sie Zugriff auf verschiedene Funktionen und Einstellungen der Wärmepumpe. Hier können Benutzer die Betriebsart ändern, die Temperatur anpassen, die Lüftung steuern und weitere Einstellungen vornehmen.
 
@@ -64,19 +64,19 @@ die Temperatur anpassen oder die Lüftung steuern.
 Mit dem Eingabe-Drehknopf können die gewünschten Optionen ausgewählt und bestätigt werden.
 
 
-==M1==: Informationen (sind aktuelle nicht relevant)
+#### [M1]: Informationen (sind aktuelle nicht relevant)
 
-==M2==: Fußbodenheizung
+#### [M2]: Fußbodenheizung
 
-==M3==: Warmwasser
+#### [M3]: Warmwasser
 
-==M4==: Lüftung
+#### [M4] [Lüftung](#m4-lüftung)
 
-==M5==: Einstellungen und relevante Informationen
+#### [M5]: Einstellungen und relevante Informationen
 
 <div style="page-break-after: always;"></div>
 
-## ==M4: Lüftung==
+## M4-Lüftung
 
 Im Untermenü „Lüftung” können Benutzer das **Zeitschaltprogramm** für die Lüftung anpassen. Sie können auch die Betriebsart der Lüftung ändern, um diese bei
 schlechter Außenluft komplett zu **deaktivieren** oder den Party-Modus zu aktivieren, um die Lüftung dauerhaft auf **maximaler Stufe** zu betreiben.
@@ -104,6 +104,7 @@ Wählen Sie „Woche” aus, um zur Übersicht der Zeiteinstellungen zu gelangen
 
 Es gibt zwei Modi: **„Täglich”** und **„Nachts”**. Der Unterschied liegt in der Stärke der Lüftung.
 
+> Die zwei folgenden Bilder zeigen die Einstellungen für Winter.
 
 #### **„Täglich"-Modus**:
 ![Zeiteinstellungen für den Täglich-Modus](m/Menu-AC-Daily.jpeg)
@@ -115,9 +116,26 @@ Es gibt zwei Modi: **„Täglich”** und **„Nachts”**. Der Unterschied lieg
 
 *Die Lüftung wird auf einer niedrigeren Stufe betrieben, um den Geräuschpegel zu minimieren.*
 
-> Die zwei Bilder zeigen die Einstellungen für Winter.
+> [!NOTE]
+> **Zusammenfassung:**  
+> Im „Täglich"-Modus gewährleistet die Lüftung eine kontinuierliche Luftzirkulation, während der „Nachts"-Modus den Geräuschpegel reduziert und gleichzeitig
+> eine ausreichende Luftqualität sicherstellt.
 
-**Zusammenfassung:**  
-Im „Täglich"-Modus gewährleistet die Lüftung eine kontinuierliche Luftzirkulation, während der „Nachts"-Modus den Geräuschpegel reduziert und gleichzeitig
-eine ausreichende Luftqualität sicherstellt.
+### Zeiteinstellungen anpassen
+Eine Zeile mit „0:00” bedeutet, dass diese Zeile nicht aktiv ist und daher nicht berücksichtigt wird.
 
+Zunächst wird die gewünschte Zeile mithilfe des Eingabe-Drehknopfs ausgewählt und anschließend mit einem Druck auf den Knopf bestätigt.
+Danach wird der Cursor mit dem Eingabe-Drehknopf auf die Stunden eingestellt und die Eingabe mit einem Druck auf den Knopf bestätigt.
+Im nächsten Schritt wird die Stunde mit dem Eingabe-Drehknopf geändert und die Änderung mit einem Druck auf den Knopf bestätigt.
+Das Gleiche gilt für die Minuten. Zum Schluss bewegt man den Cursor wieder zum Zeilenanfang, um die nächste Zeile einzustellen.
+
+> [!IMPORTANT]
+> Eine nervige Eigenart ist, dass nicht jeder Knopfdruck zu einer Reaktion führt. Es kommt leider sehr oft vor, dass man die Eingabe
+> mehrmals wiederholen muss, bis die Steuerung reagiert.
+
+
+Durch Scrollen nach unten gelangt man von den täglichen zu den nächtlichen Zeiteinstellungen.
+Wird anschließend noch weiter gescrollt, gelangt man zum Bestätigungsbildschirm. Hier kann man die Änderungen entweder speichern oder verwerfen.
+
+
+![](m/Menu-OkCancel.jpeg)
