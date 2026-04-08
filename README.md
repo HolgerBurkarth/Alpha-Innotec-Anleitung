@@ -164,10 +164,11 @@ Wird anschließend noch weiter gescrollt, gelangt man zum Bestätigungsbildschir
 
 
 ### Tabellenansicht der Zeiteinstellungen
-| Jahreszeit | Lüftungsstufe (Tags) | Lüftungsstufe (Nachts) |
-|------------|----------------------|------------------------|
-| Winter (Dezember - Februar) | **1:**  05:00  -  05:30  | **1:** 17:30  -  18:00 |
-|                             | **2:**  12:30  -  13:15  | **2:** 00:00  -  00:00 |
-
+| Jahreszeit | | Lüftungsstufe (Tags) | Lüftungsstufe (Nachts) |
+|------------|-|----------------------|-----------------------|
+| Dezember bis Februar (Winter) | **1:** | 05:00  -  05:30  | 17:30  -  18:00 |
+|                               | **2:** | 12:30  -  13:15  | 00:00  -  00:00 |
+| März                          | **1:** | 05:00  -  05:30  | 11:30  -  14:30 |
+|                               | **2:** | 17:30  -  20:00  | 00:00  -  00:00 |
 
 
