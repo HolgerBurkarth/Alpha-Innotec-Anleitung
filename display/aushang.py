@@ -20,12 +20,12 @@ ZU = '<span class="w">›</span>'
 CSS = """
 @page{size:A4;margin:12mm 14mm}
 *{box-sizing:border-box}
-body{margin:0;font:12pt/1.3 "Segoe UI",Arial,sans-serif;color:#1c1c1c}
+body{margin:0;font:12pt/1.26 "Segoe UI",Arial,sans-serif;color:#1c1c1c}
 h1{font-size:25pt;line-height:1.1;margin:0 0 2pt}
 .unter{font-size:14pt;margin:0 0 9pt}
-h2{font-size:14.5pt;margin:11pt 0 5pt;border-bottom:1.5pt solid #5b7a4a;padding-bottom:1pt}
+h2{font-size:14.5pt;margin:8pt 0 4pt;border-bottom:1.5pt solid #5b7a4a;padding-bottom:1pt}
 .oben{display:flex;gap:14pt;align-items:center}
-.oben img{height:2.8cm;flex:none}
+.oben img{height:2.5cm;flex:none}
 .oben p{margin:0 0 5pt}
 table{border-collapse:collapse;width:100%}
 td{border:.6pt solid #b8bdb2;padding:4pt 6pt;vertical-align:top}
@@ -36,7 +36,7 @@ ul{margin:0;padding-left:15pt}
 li{margin:0 0 2pt}
 .rot{border-left:3pt solid #b3261e;background:#fbeeec;padding:6pt 9pt;margin:10pt 0 0}
 .fuss{display:flex;gap:14pt;align-items:center;margin-top:11pt;border:1pt solid #5b7a4a;padding:7pt 10pt}
-.qr{width:3.4cm;height:3.4cm;flex:none}
+.qr{width:3.1cm;height:3.1cm;flex:none}
 .qr svg{display:block}
 .fuss strong.t{font-size:15pt;display:block}
 .fuss p{margin:0 0 3pt}
@@ -68,7 +68,7 @@ INHALT = f"""
 
 <h2>Bitte nicht</h2>
 <ul>
-<li>Die Anlage ausschalten oder die Sicherung abschalten, auch nicht im Sommer oder im Urlaub.</li>
+<li>Die Anlage oder die Sicherung abschalten, auch nicht im Sommer oder Urlaub.</li>
 <li>Das Menü Einstellungen {sym("werkzeug", "Schraubenschlüssel")} öffnen.</li>
 <li>Mehrmals hintereinander am Wert drehen. Die Fußbodenheizung braucht Stunden.</li>
 </ul>
