@@ -1,0 +1,37 @@
+name: PDF erzeugen
+
+# Baut Anleitung.pdf und Aushang.pdf neu, sobald sich die Anleitung oder ihre Bilder ändern.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "display/**"
+      - "m/**"
+      - ".github/workflows/pdf.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Schrift installieren
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation
+
+      - name: PDFs erzeugen
+        run: |
+          python3 display/pdf.py
+          python3 display/aushang.py
+
+      - name: PDFs einchecken
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Anleitung.pdf Aushang.pdf
+          git diff --cached --quiet || git commit -m "PDFs neu erzeugt"
+          git push

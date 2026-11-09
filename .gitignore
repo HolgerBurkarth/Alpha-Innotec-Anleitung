@@ -1,1 +1,5 @@
 /.vs
+/Anleitungen/
+/Offene-Punkte.md
+__pycache__/
+/.druck*.html
