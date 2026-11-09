@@ -1,11 +1,12 @@
 name: PDF erzeugen
 
-# Baut Anleitung.pdf und Aushang.pdf neu, sobald sich die Anleitung oder ihre Bilder ändern.
+# Baut alle PDFs neu, sobald sich die Anleitung, das Nachschlagebuch oder ihre Bilder ändern.
 on:
   push:
     branches: [main]
     paths:
       - "README.md"
+      - "Nachschlagebuch.md"
       - "display/**"
       - "m/**"
       - ".github/workflows/pdf.yml"
@@ -27,11 +28,12 @@ jobs:
         run: |
           python3 display/pdf.py
           python3 display/aushang.py
+          python3 display/nachschlagen.py
 
       - name: PDFs einchecken
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Anleitung.pdf Aushang.pdf
+          git add Anleitung.pdf Aushang.pdf Nachschlagebuch.pdf
           git diff --cached --quiet || git commit -m "PDFs neu erzeugt"
           git push

@@ -75,7 +75,7 @@ INHALT = f"""
 
 <h2>Einmal im Jahr</h2>
 <ul>
-<li><strong>Spätestens im Oktober:</strong> Die Lüftung muss im Winter-Zustand sein und auf <strong>Automatik</strong> stehen. Wie das geht, steht in der ganzen Anleitung.</li>
+<li><strong>Spätestens im Oktober:</strong> Die Lüftung muss im Winter-Zustand sein und auf <strong>Automatik</strong> stehen. Wie das geht, steht im Nachschlagebuch an der Anlage.</li>
 </ul>
 
 <div class="rot"><strong>Störung, Wasser am Boden oder Heizung fällt aus:</strong> Foto der Anzeige machen, nichts verstellen, nicht ausschalten.

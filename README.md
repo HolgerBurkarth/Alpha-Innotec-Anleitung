@@ -80,6 +80,8 @@ Ein fester Ansprechpartner ist nicht bekannt. So findet ihr Hilfe:
 - **Im Winter und Herbst:** Die Luftöffnungen außen am Haus frei von Schnee und Laub halten.
 - **Immer:** Den Stromvertrag der Wärmepumpe weiterlaufen lassen. Sie hat einen eigenen Zähler und Vertrag. Der Versorger steht auf der letzten Rechnung.
 
+### Monat für Monat
+
 **Das ist freiwillig.** So wurde die Anlage bisher zum Monatsanfang eingestellt. Bleibt ein Wert oder Plan länger stehen, passiert nichts Schlimmes.
 
 | Monat | Wert rechts | Lüftung |
